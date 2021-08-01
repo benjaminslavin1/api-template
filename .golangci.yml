@@ -1,0 +1,9 @@
+linters:
+  enable:
+    - goimports
+    - revive
+linters-settings:
+  goimports:
+    local-prefixes: github.com/benjaminslavin1/api-template
+issues:
+  exclude-use-default: false
